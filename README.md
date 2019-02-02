@@ -10,7 +10,12 @@ You will need to acquire copy of LuciadRIA from your local distributor.  For mor
 # install dependencies
 npm install
 
+#install luciadria. You will need to addapt the path to the right location of your LuciadRIA release
+npm install C:\Luciad\LuciadRIA_2018.1\web\luciad 
+
 # serve with hot reload at localhost:8080
+npm start
+[or]
 npm run dev
 
 # build for production with minification
