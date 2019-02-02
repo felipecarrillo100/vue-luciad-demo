@@ -1,0 +1,7 @@
+/* A very basic CSS just for this sample, change according to your needs */
+.VLuciadMap {
+  height: 300px;
+  width: 480px;
+  background-color: black;
+  display: inline-block; /* inline block to center the div ( Similar to the img we replaced) */
+}
