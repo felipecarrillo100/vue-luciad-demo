@@ -10,8 +10,9 @@ You will need to acquire a copy of LuciadRIA from your local distributor.  For m
 # install dependencies
 npm install
 
-#install luciadria. You will need to addapt the path to the right location of your LuciadRIA release
-npm install C:\Luciad\LuciadRIA_2018.1\web\luciad 
+#The current package.json points to a luciadria api located at C:\Luciad\LuciadRIA_2018.1\web\luciad
+#To modify this use [addap the path to the location of your LuciadRIA API]
+npm install C:\Luciad\LuciadRIA_2018.1\web\luciad --save
 
 # serve with hot reload at localhost:8080
 npm start
@@ -19,19 +20,12 @@ npm start
 npm run dev
 
 # build for production with minification
+set NODE_OPTIONS=--max-old-space-size=4096
 npm run build
 
 # build for production and view the bundle analyzer report
+set NODE_OPTIONS=--max-old-space-size=4096
 npm run build --report
 
-# run unit tests
-npm run unit
+This sample was created with VUE CLI
 
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
