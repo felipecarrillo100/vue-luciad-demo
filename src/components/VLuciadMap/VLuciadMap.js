@@ -24,7 +24,7 @@ export default {
       // Do something if needed
       const wmsModel = ModelFactory.createWMSModel(undefined)
       const elevationModel = ModelFactory.createLTSModel(undefined)
-      const vectorModel = ModelFactory.createGeoJSONModel({url: '/static/data/countries.json'})
+      const vectorModel = ModelFactory.createGeoJSONModel({url: './static/data/countries.json'})
       // Create Layers
       const WMSlayer = LayerFactory.createWMSLayer(wmsModel, undefined)
       const swissMap = LayerFactory.createFeatureLayer(vectorModel, undefined)
