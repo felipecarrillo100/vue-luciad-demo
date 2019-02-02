@@ -2,7 +2,7 @@
 
 This sample shows how to integrate LuciadRIA with VUE.
 This sample code does not include a copy of LuciadRIA which is commercial software. 
-You will need to acquire a copy of LuciadRIA from your local distributor.  For more information on how to acquire a LuciadRIA refer to www.luciad.com
+You will need to acquire a copy of LuciadRIA from your local distributor to run this sample.  For more information on how to acquire a copy of LuciadRIA refer to www.luciad.com
 
 ## Build Setup
 
