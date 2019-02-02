@@ -1,6 +1,8 @@
 # vue-luciad-demo
 
-> A Vue.js project
+> This sample shows how to integrate LuciadRIA with VUE.
+This sample code does not include a copy of LuciadRIA which is commercial software. 
+You will need to acquire copy of LuciadRIA from your local distributor.  For more information on how to acquire a LuciadRIA refer to www.luciad.com
 
 ## Build Setup
 
