@@ -26,6 +26,7 @@ npm run build
 # build for production and view the bundle analyzer report
 set NODE_OPTIONS=--max-old-space-size=4096
 npm run build --report
+```
 
-This sample was created with VUE CLI
+This sample was created with VUE CLI 2 and it may not work in other version of VUE CLI
 
