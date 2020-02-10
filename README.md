@@ -11,7 +11,7 @@ You will need to acquire a copy of LuciadRIA from your local distributor to run 
 npm install
 
 #The current package.json points to a luciadria api located at C:\Luciad\LuciadRIA_2018.1\web\luciad
-#To modify this use [addap the path to the location of your LuciadRIA API]
+#To modify this use [addapt the path to the location of your LuciadRIA API]
 npm install C:\Luciad\LuciadRIA_2018.1\web\luciad --save
 
 # serve with hot reload at localhost:8080
